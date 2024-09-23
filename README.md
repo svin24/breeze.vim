@@ -1,8 +1,10 @@
-# Breezy, a colorscheme for (neo)vim
+# breeze.vim, a colorscheme for (neo)vim
 
 Breezy is a (neo)vim true color scheme inspired by the KDE breeze palette.
 It uses the colors of the "Breeze Dark" color scheme shipped with KTextEditor
 since KDE Frameworks 5.23.
+
+I will eventually figure out how to make a neovim only version so that work canbe done in properly supporting plugins
 
 ## Appearance
 
@@ -20,20 +22,8 @@ your `~/.vim` or `~/.config/nvim` directory.
 The minimal setup required to use this colorscheme is:
 
 ```vim
-set background=light
 set termguicolors " if you want to run vim in a terminal
-colorscheme breezy
-```
-
-### Black background
-You can use original KDE breeze background color by setting 
-```vim
-set background=light
-```
-Otherwise for black background color set this to dark:
-
-```vim
-set background=dark
+colorscheme breeze
 ```
 
 Please note that your terminal needs to support 24bit true color
@@ -130,6 +120,7 @@ style of this theme and KDE Breeze Dark.
 
 I would like to thank the following people:
 
+* The original breezy theme https://github.com/fneu/breezy
 * The KDE Visual Design Group who created the "Breeze" theme
 * [Romain Lafourcade](https://github.com/romainl), whose color scheme
 [Apprentice](https://github.com/romainl/Apprentice) provided me with
