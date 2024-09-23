@@ -3,10 +3,10 @@ if exists('syntax_on')
     syntax reset
 endif
 
-let g:colors_name = 'breezy'
+let g:colors_name = 'breeze'
 
 if(&background == "dark")
-    hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE
+    hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
 else
     hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE
 endif
